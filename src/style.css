@@ -31,6 +31,7 @@ a { color: inherit; text-decoration: none; }
 .profile-links a { color: var(--muted); display: flex; justify-content: space-between; }
 .profile-links a, .footer a { align-items: center; }
 .social-icon { fill: currentColor; height: 14px; margin-right: 8px; width: 14px; }
+.profile-links a .social-icon { margin-left: 0; }
 .profile-links a span { margin-left: auto; }
 .profile-links a:hover { color: var(--accent); }
 .intro-panel { align-self: center; max-width: 650px; }
